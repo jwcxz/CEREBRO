@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Apr 2011 03:29:28 PM EDT
+#
+$CMP 74HC4067
+D Analog Multiplexer/Demultiplexer
+F 74hc4067.pdf
+$ENDCMP
+#
+#End Doc Library

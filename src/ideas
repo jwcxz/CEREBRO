@@ -1,0 +1,28 @@
+ideas for good coding
+
+- use two stack bases - one for function calls and one for data
+- make sure that stack can never override buffers
+- write functions that do memory analysis
+- circular buffer handler
+
+-----------
+
+TODO
+d = needs debugging
+x = done
+
+[ ] specify all memory addresses
+
+[d] pkt: capture packet
+[ ] pkt: extract data
+[d] col: hsv2rgb
+[x] led: send byte
+[x] led: set whole panel
+[x] led: set pixels
+[ ] sig: signal processor
+[ ] ctl: scan eq board, read values into memory
+
+[ ] main loop
+
+---
+[ ] figure out what to do with main interrupt

@@ -1,0 +1,18 @@
+aa aa 20 02 19 83 18 00 00 01 00 00 00 00 00 00 00 00 02 00 00 01 00 00 00 00 00 01 00 00 00 04 00 05 00 3b 
+plength = 20
+
+02 -> poor signal = 19
+83 -> asic eeg power
+    18 -> vlength = 24 bytes
+    delta: 00 00 01
+    theta: 00 00 00
+    lalph: 00 00 00
+    halph: 00 00 02
+    lbeta: 00 00 01
+    hbeta: 00 00 00
+    lgamm: 00 00 01
+    hgamm: 00 00 00
+04 -> attention = 00
+05 -> meditation = 00
+
+checksum = 3b

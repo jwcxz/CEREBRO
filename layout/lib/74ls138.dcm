@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Apr 2011 04:37:24 PM EDT
+#
+$CMP 74LS138
+D Decoder 3 to 8 (active low outputs)
+K TTL DECOD DECOD8
+$ENDCMP
+#
+#End Doc Library

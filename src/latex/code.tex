@@ -1,0 +1,45 @@
+\documentclass[letterpaper,9pt,notitlepage]{report}
+\usepackage[left=1.0in,top=1.0in,right=1.0in,bottom=1in,nofoot]{geometry}
+\usepackage{alltt}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{courier}
+%\usepackage{indentfirst}
+\usepackage[normalem]{ulem}
+%\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\cfoot{\thepage{}}
+
+\newenvironment{code}{\begin{quote}\begin{alltt}}{\end{alltt}\end{quote}}
+
+\renewcommand*\thesection{\arabic{section}}
+\renewcommand*\chaptername{}
+
+\newcommand{\labnum}{5}
+
+\newcommand{\lscode}[2]{\begin{Large}\textbf{Appendix A: Cerebro Code, #1, Joseph Colosimo}\end{Large} \lstinputlisting[breaklines=true]{#2}\pagebreak}
+\newcommand{\lscodea}[2]{\begin{Large}\textbf{Appendix A: Testing Code, #1, Joseph Colosimo}\end{Large} \lstinputlisting[breaklines=true]{#2}\pagebreak}
+
+\begin{document}
+
+    \lscode{Main File}{../cerebro.asm}
+    \lscode{EEG Controller Library}{../eegctrl.asm}
+    \lscode{Equalizer Board Library}{../eqboard.asm}
+    \lscode{Signal Processing Library}{../sigproc.asm}
+    \lscode{Transition Library}{../trans.asm}
+    \lscode{LED Panel Controller Library}{../ledpanel.asm}
+    \lscode{Serial Communication Library}{../sercom.asm}
+    \lscode{Color Utilities}{../colutils.asm}
+
+    \lscode{EEG Data Capture Utility}{../eegtest/eegtest.asm}
+    \lscode{Payload Test}{../pyldtest.asm}
+    \lscode{LED Panel Test 1}{../ledtest/ledtest.asm}
+    \lscode{LED Panel Test 2}{../ledtest/ledloopback.asm}
+    \lscode{LED Panel Test 3}{../ledcycle.asm}
+    \lscode{Equalizer Board Test}{../eqtest.asm}
+
+\end{document}

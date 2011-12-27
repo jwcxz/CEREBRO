@@ -1,0 +1,8 @@
+*.bak
+*.pdf
+*.aux
+*.aux
+*.synctex.gz
+*.project.vim
+*.toc
+*.obj

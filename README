@@ -1,0 +1,15 @@
+Cerebro is a system that uses an EEG to measure electromagnetic activity from
+the surface of the brain and provide a visual display based on that activity.
+The 8051 microprocessor essentially reads data from an EEG device and, though
+visualization algorithms, computes a display for a custom-designed LED panel.
+Hardware communication was done through UART peripheral chips. Additionally,
+the visualization algorithms are customizable through analog slider board
+interface. The software was designed to be extremely modular. The main program
+calls upon libraries to perform tasks such as grabbing and interpreting data
+packets fromt he EEG, reading equalizer slider values, and creating and sending
+packets of data out to the lighting system.
+
+Cerebro was my final project for 6.115, a microcontroller class and one of
+MIT's most hands-on courses. I'm a big fan of classes that let you do whatever
+you want for a final project; it's really amazing to see the creativity that
+students have in designing fantastic projects.

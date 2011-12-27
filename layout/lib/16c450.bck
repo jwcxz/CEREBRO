@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Apr 2011 03:29:46 PM EDT
+#
+$CMP 16C450
+D uP-Compatible UART Peripheral
+F 16c450.pdf
+$ENDCMP
+#
+#End Doc Library

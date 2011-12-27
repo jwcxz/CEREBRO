@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Apr 2011 03:37:01 PM EDT
+#
+$CMP ADC0804
+D uP-Compatible ADC
+F adc0804.pdf
+$ENDCMP
+#
+#End Doc Library
